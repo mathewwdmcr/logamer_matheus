@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <div className="min-h-screen flex flex-col justify-between bg-black p-1">
-        <header/>
+        <Header/>
           <Routes>
             <Route path="/" element = {<Home/>}/>
             <Route path="/contato" element={<Contato/>} />
